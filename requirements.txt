@@ -15,9 +15,7 @@ joblib==1.1.0
 langcodes==3.3.0
 MarkupSafe==2.1.1
 murmurhash==1.0.7
-numpy
 packaging==21.3
-pandas==1.4.3
 thinc==8.0.17
 tqdm==4.64.0
 typer==0.4.1
