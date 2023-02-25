@@ -67,4 +67,4 @@ def video_to_translate(file_obj,initial_language,final_language):
 
 
 
-file = video_to_translate("obama.mp4","English","Spanish")
+file = video_to_translate("https://drive.google.com/file/d/1uyInTei3zeG7INEiGjxOOoOoadCk-LiB/view?usp=share_link","English","Spanish")
