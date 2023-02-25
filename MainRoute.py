@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from fastapi import FastAPI, Request, Query
 from fastapi.middleware.cors import CORSMiddleware
-
+from fastapi.responses import FileResponse
 
 load_dotenv()
 
@@ -61,3 +61,11 @@ async def get_job(info : Request):
   job_description = response.choices[0].text.strip()
   
   return {"Job_Description" : job_description}
+
+
+
+@app.get("/getInformation")
+def getInformation(info : Request):
+  return FileResponse("obama.mp4")
+
+
