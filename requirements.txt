@@ -11,7 +11,7 @@ h11==0.13.0
 httptools==0.4.0
 idna==3.3
 Jinja2==3.1.2
-joblib==1.1.0
+joblib==1.1.1
 langcodes==3.3.0
 MarkupSafe==2.1.1
 murmurhash==1.0.7
@@ -39,5 +39,4 @@ pandas==1.5.3
 statistics==1.0.3.5
 langdetect==1.0.9
 scikit-learn==1.2.1
-joblib==1.1.1
 pymongo[srv]
